@@ -1,14 +1,10 @@
 plugins {
     alias(libs.plugins.kotlin.jvm)
-    id 'application'
+    id 'java-library'
 }
 
 kotlin {
     jvmToolchain(21)
-}
-
-application {
-    mainClass = 'com.github.oytech.calorie.calc.AppKt'
 }
 
 repositories {
@@ -16,8 +12,6 @@ repositories {
 }
 
 dependencies {
-    implementation project(':calorie-calc-core')
-
     testImplementation 'org.jetbrains.kotlin:kotlin-test-junit5'
     testImplementation libs.junit.jupiter.engine
 

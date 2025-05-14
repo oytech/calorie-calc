@@ -1,2 +1,4 @@
 rootProject.name = 'calorie-calc'
+
 include('calorie-calc-web')
+include('calorie-calc-core')
