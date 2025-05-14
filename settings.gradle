@@ -11,4 +11,4 @@ plugins {
 }
 
 rootProject.name = 'calorie-calc'
-include('app')
+include('calorie-calc-web')
