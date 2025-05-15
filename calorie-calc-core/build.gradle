@@ -13,6 +13,7 @@ repositories {
 
 dependencies {
     testImplementation 'org.jetbrains.kotlin:kotlin-test-junit5'
+    testImplementation libs.assertj.core
     testImplementation libs.junit.jupiter.engine
 
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
